@@ -33,7 +33,7 @@ if ( $ctx === FALSE ) {
         echo $error.'<br/>'.PHP_EOL;
       }
     } else {
-      $stream_success = stream_context_set_option( $ctx, 'ssl', 'cafile', 'Entrust.net Certification Authority (2048).pem.pem' );
+      $stream_success = stream_context_set_option( $ctx, 'ssl', 'cafile', 'Entrust.net Certification Authority (2048).pem' );
     }
   }
 }
