@@ -71,8 +71,8 @@ if ( !$error ) {
           'body' => $message,
           'action' => $action,
         ),
+        'url-args' => array($url_arg),
       ),
-      'url-args' => array($url_arg),
     );
 
     // Encode the payload as JSON
